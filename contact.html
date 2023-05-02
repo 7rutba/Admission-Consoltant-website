@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/dcd4194f33.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7rutba</title>
+</head>
+<body>
+    <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="./image/logo.jpg" alt=""></a>
+                <div class="nav-links " id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="collages.html">COLLAGES</a></li>
+                        <li><a href="cource.html">COURCE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTECT </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+        <h2>Contect  us</h2>
+    </section>
+    <!-- ---------location-------- -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.944203487204!2d75.8621654!3d26.809905200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc832568c7fad%3A0xede86f1902a9ce10!2sSuresh%20Gyan%20Vihar%20University!5e0!3m2!1sen!2sin!4v1653987197623!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section class="contect-us">
+        <div class="row">
+            <div class="contact-cul">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Mahal Road ,SGVU</h5>
+                        <p>Jaipur ,Rajsthan ,IN </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 7061274672</h5>
+                        <p>Monday to Satuardy ,10Am to  6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>7rutba@gmail.com</h5>
+                        <p>Email Us for query </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-cul">
+                <form action="form-hendlar.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email"name="email" placeholder="Enter Email Address" required>
+                    <input type="text"  name="subject"placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message"placeholder="Message" required></textarea><br>
+                    <button type="submit" class="hero-btn red-btn">Send Meassage</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+    <!-- <-----------footer-------- -->
+    <section class="footer">
+        <h4>About us </h4>
+        <p>We are work to connect various collage with us to provide best unity together </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by 7rutba</p>
+    </section>
+
+    <script>
+
+        var navLinks= document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

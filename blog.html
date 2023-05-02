@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/dcd4194f33.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7rutba</title>
+</head>
+<body>
+    <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="./image/logo.jpg" alt=""></a>
+                <div class="nav-links " id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="collages.html">COLLAGES</a></li>
+                        <li><a href="cource.html">COURCE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTECT </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+        <h2>The cources and contect that we offer the students</h2>
+    </section>
+    <!-- ---------blog content---------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/agri2.jpg" alt="">
+                <h2>contect that we offer the students</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur qui, ratione eius amet labore repellat nam nesciunt assumenda beatae impedit fugiat obcaecati enim ab quibusdam laborum accusantium veniam tempore eveniet.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem adipisci suscipit accusantium blanditiis incidunt provident eos. Est, pariatur commodi! Ipsa sint ut quod pariatur neque voluptate dignissimos placeat et.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ex similique sint quis accusantium sit quas ut, voluptatibus quidem rerum sunt, nulla adipisci harum perspiciatis facilis obcaecati magnam. Perspiciatis aliquam eligendi quisquam omnis pariatur magnam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto itaque quia ad minima officiis tempora temporibus repellendus quidem? Dolorum beatae possimus doloremque vel quo a consequatur ducimus vitae modi obcaecati.</p>  
+
+                <div class="comment-box">
+                    <h3>leave your comment here</h3>
+                    <form action="" class="comment-form">
+                        <input type="text"placeholder="Enter name">
+                        <input type="email"placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Leave Your commen"></textarea>
+                        <button type="submit"class="hero-btn red-btn">POST YOUR COMMENT</button>
+                    </form>
+                </div>
+            </div>            
+            <div class="blog-right">
+                <h3>post categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>            
+
+        </div>
+
+    </section>
+    
+
+    <!-- <-----------footer-------- -->
+    <section class="footer">
+        <h4>About us </h4>
+        <p>We are work to connect various collage with us to provide best unity together </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by 7rutba</p>
+    </section>
+
+    <script>
+
+        var navLinks= document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
